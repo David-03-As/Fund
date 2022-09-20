@@ -3,16 +3,16 @@ using namespace std;
 
 int main()
 {
- float a,b;
-     cout << "Ingresé a y b: ";
-     cin >>a>>b;	
-     if (a>b)
+ float n1,n2;
+     cout << "Ingresé n1 y n2: ";
+     cin >>n1>>n2;	
+     if (n1>n2)
     {
-    cout <<a<< " Es mayor que "<<b<<endl;
+    cout <<n1<< " Es mayor que "<<n2<<endl;
     }
     else
     {
-    cout <<b<< " Es mayor que "<<a<<endl;
+    cout <<n2<< " Es mayor que "<<n1<<endl;
     }
     return 0;
 }
