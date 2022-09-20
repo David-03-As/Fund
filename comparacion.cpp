@@ -1,18 +1,19 @@
+//José David Aguiar Sosa
 #include<iostream>
 using namespace std;
 
 int main()
 {
- float n1,n2;
-     cout << "Ingresé n1 y n2: ";
-     cin >>n1>>n2;	
-     if (n1>n2)
+ float jdas_n1,jdas_n2;
+     cout << "Ingresé jdas_n1 y jdas_n2: ";
+     cin >>jdas_n1>>jdas_n2;	
+     if (jdas_n1>jdas_n2)
     {
-    cout <<n1<< " Es mayor que "<<n2<<endl;
+    cout <<jdas_n1<< " Es mayor que "<<jdas_n2<<endl;
     }
     else
     {
-    cout <<n2<< " Es mayor que "<<n1<<endl;
+    cout <<jdas_n2<< " Es mayor que "<<jdas_n1<<endl;
     }
     return 0;
 }

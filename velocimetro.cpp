@@ -1,14 +1,15 @@
+//José David Aguiar Sosa
 #include<iostream>
 using namespace std;
 int main()
 {
-	float v,d,t;
-	cout<<"Ingrese la distancia (en km) d= ";
-	cin>>d;
-	cout<<"Ingrese el tiempo (en horas) t= ";
-	cin>>t;
-	v=d/t;
-	cout<<"La velocidad calculada es de v= ";
-	cout<<v<<endl;
+	float jdas_v,jdas_d,jdas_t;
+	cout<<"Ingrese la distancia (en km) jdas_d= ";
+	cin>>jdas_d;
+	cout<<"Ingrese el tiempo (en horas) jdas_t= ";
+	cin>>jdas_t;
+	jdas_v=jdas_d/jdas_t;
+	cout<<"La velocidad calculada es de jdas_v= ";
+	cout<<jdas_v<<endl;
 return 0;
 }
